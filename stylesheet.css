@@ -1,0 +1,38 @@
+#big_header
+{
+    font-family: Impact, sans-serif;
+    font-size: 56pt;
+    font-style: normal;
+    font-weight: bold;
+}
+
+body
+{
+    background-image: url("deepfried.jpg");
+    color: white;
+    text-shadow:
+            -2px -2px 0 #000,
+            2px -2px 0 #000,
+            -2px 2px 0 #000,
+            2px 2px 0 #000,
+            -3px 0px 0 #000,
+            3px 0px 0 #000,
+            0px -3px 0 #000,
+            0px 3px 0 #000;
+    font-family: Arial, sans-serif;
+    font-size: 28pt;
+    font-style: normal;
+}
+
+a:hover
+{
+    color: cornflowerblue;
+}
+
+div.custom_class
+{
+    border-color: black;
+    border-style: solid;
+    background-color: white;
+    fill-opacity: 0.5;
+}
